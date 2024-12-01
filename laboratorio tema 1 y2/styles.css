@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #333;
+    background-color: #e2e2e2;
+    padding: 20px;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#nombre-personal {
+    text-align: center;
+    color: #0077cc;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    padding: 20px;
+}
+
+
+.foto {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+.subtitulo {
+    font-size: 24px;
+    color: #333;
+    margin-left: 20px;
+}
+
+.lista-pasatiempos {
+    list-style-type: square;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+
+.lista-tareas {
+    list-style-type: decimal;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+
+.tabla-semana {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.tabla-semana th, .tabla-semana td {
+    text-align: center;
+    padding: 10px;
+}
+
+.tabla-semana th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabla-semana td {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.tabla-semana tr:hover {
+    background-color: #f1f1f1;
+}
